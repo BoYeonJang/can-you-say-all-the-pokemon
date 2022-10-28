@@ -12,6 +12,28 @@
   align-items: center;
 }
 
+.header {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-bottom: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_link {
+  margin: 0 2rem 0 2rem;
+  font-weight: 700;
+}
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+  color: #0070f3;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -117,6 +139,9 @@
 
 @media (prefers-color-scheme: dark) {
   .card,
+  .header {
+    border-color: #222;
+  }
   .footer {
     border-color: #222;
   }
