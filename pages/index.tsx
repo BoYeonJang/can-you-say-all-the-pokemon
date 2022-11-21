@@ -7,6 +7,9 @@ export default function Home() {
     <Layout>
       <main className={styles.main}>
         <h1 className={styles.title}>
+          모든 포켓몬 <span className={styles.subtitle}>151마리</span> 말할 수 있을까?
+        </h1>
+        <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <p className={styles.description}>
