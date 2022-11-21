@@ -5,7 +5,11 @@ import styles from "../styles/Home.module.css";
 export default function Sinnoh() {
   return (
     <Layout>
-      <h1>신오지방</h1>
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          신오지방 포켓몬 <span className={styles.subtitle}>107마리</span> 말할 수 있을까?
+        </h1>
+      </main>
     </Layout>
   );
 }
