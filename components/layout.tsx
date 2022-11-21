@@ -19,6 +19,17 @@ export default function Layout({ children }: any) {
           <p>
             <span>「 포켓몬 다 말할 수 있을까? 게임」은 포켓몬스터 비공식 2차 창작입니다.</span>
             <br />
+            <span>
+              원본 사이트:{" "}
+              <Link
+                href="https://all-pokemon-ierukana.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://all-pokemon-ierukana.com/
+              </Link>
+            </span>
+            <br />
             <span>©2022 Pokémon. ©1995-2022 Nintendo/Creatures Inc./GAME FREAK inc.</span>
             <br />
           </p>
